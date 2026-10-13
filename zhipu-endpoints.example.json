@@ -1,0 +1,16 @@
+{
+  "_howto": "本文件由「勘察智谱接口.cmd」自动生成(probe)。字段语义:url=接口地址;pick=从 JSON 里取值的字段路径数组(删掉 pick 则整段 JSON 都返回给页面);headers=需要额外请求头时才用。改完保存即生效,服务每 5 分钟按它取一次数。",
+  "_example": {
+    "overview": {
+      "url": "https://open.bigmodel.cn/api/xxx/balance",
+      "pick": ["data", "availableBalance"],
+      "_candidates": [
+        { "path": "data.availableBalance", "value": 123.45 }
+      ]
+    },
+    "expense": {
+      "url": "https://open.bigmodel.cn/api/xxx/expense/list?page=1&size=20",
+      "pick": ["data", "totalCost"]
+    }
+  }
+}

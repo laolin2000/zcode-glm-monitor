@@ -1,0 +1,17 @@
+{
+  "_note": "智谱模型价目表(元/百万 token)。calibrated=false 时监控页只显示 token、不显示估算金额 —— 数值必须按 open.bigmodel.cn 官方价目页逐项核对后再置 calibrated=true,不要凭印象填。",
+  "calibrated": false,
+  "calibratedAt": "",
+  "currency": "CNY",
+  "unit": "per_million_tokens",
+  "peakWindows": [["09:00", "12:00"], ["14:00", "18:00"]],
+  "weekendOffpeak": false,
+  "rates": {
+    "GLM-5.3": { "cacheMiss": null, "cacheHit": null, "output": null },
+    "GLM-5.3-Flash": { "cacheMiss": null, "cacheHit": null, "output": null },
+    "GLM-4.6": { "cacheMiss": null, "cacheHit": null, "output": null },
+    "GLM-4.5": { "cacheMiss": null, "cacheHit": null, "output": null },
+    "deepseek-flash": { "cacheMiss": null, "cacheHit": null, "output": null },
+    "deepseek-pro": { "cacheMiss": null, "cacheHit": null, "output": null }
+  }
+}
